@@ -709,11 +709,11 @@ body {
 .footer__map {
   padding-top: 10px;
   max-width: 630px;
+  width: 100%;
 }
 
 .footer__map iframe {
-  /* height: 250px;
-  width: 100%; */
+  width: 100%;
 }
 
 .footer__title {
@@ -802,4 +802,10 @@ body {
 #modal input[type="submit"] {
   background-color: #ffc222;
   border: none;
+}
+
+.header__btn-menu {
+  display: none;
+  font-size: 28px;
+  cursor: pointer;
 }
